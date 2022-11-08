@@ -14,7 +14,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -71,7 +70,6 @@ public class AtendimentoActivity extends AppCompatActivity
     private String statusRequisicao;
     private boolean requisicaoAtiva;
     private Destino destino;
-    private boolean cancelarOs = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -226,12 +224,6 @@ public class AtendimentoActivity extends AppCompatActivity
                         );
                         adicionaMarcadorDestino(localDestino, "Destino");
                         centralizarMarcador(localDestino);
-
-                        //Calcular distancia
-                        //float distancia = Local.calcularDistancia(localAtendente, localDestino);
-                        //float valor = distancia * 8;//4.56
-                        //DecimalFormat decimal = new DecimalFormat("0.00");
-                        //String resultado = decimal.format(valor);
 
                         buttonAceitarOs.setText("OS finalizada - R$ " + null );
 
@@ -396,7 +388,6 @@ public class AtendimentoActivity extends AppCompatActivity
             public void onKeyEntered(String key, GeoLocation location) {
 
                 if( key.equals(uOrigem.getId()) ){
-                    //Log.d("onKeyEntered", "onKeyEntered: tecnico está dentro da área!");
 
                     //Altera status da requisicao
                     requisicao.setStatus(status);
@@ -604,16 +595,21 @@ public class AtendimentoActivity extends AppCompatActivity
 
     @Override
     public boolean onSupportNavigateUp() {
+
+        Intent i = new Intent(AtendimentoActivity.this, RequisicoesActivity.class);
+        startActivity(i);
+
+         /*
         if (requisicaoAtiva){
             Toast.makeText(AtendimentoActivity.this,
-                    "Necessário encerrar a requisição atual!",
+                    "Necessário cancelar a requisição atual!",
                     Toast.LENGTH_SHORT).show();
         }else {
             Intent i = new Intent(AtendimentoActivity.this, RequisicoesActivity.class);
             startActivity(i);
         }
 
-        /*
+
         //Verificar o status da requisição para encerrar
         if( statusRequisicao != null && !statusRequisicao.isEmpty() ){
             requisicao.setStatus(Requisicao.STATUS_ENCERRADA);

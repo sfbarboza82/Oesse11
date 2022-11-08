@@ -24,45 +24,23 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
-import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 
 import br.net.oesse11.adpter.RequisicoesAdapter;
 import br.net.oesse11.config.ConfiguracaoFirebase;
-import br.net.oesse11.helper.UsuarioFirebase;
 import br.net.oesse11.model.Requisicao;
 import br.net.oesse11.model.Destino;
 import br.net.oesse11.model.Usuario;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 
 public class CadastroOsActivity extends AppCompatActivity {
-
-    /*
-     * Lat/lon destino:-23.556407, -46.662365 (Av. Paulista, 2439)
-     * Lat/lon atendente: -23.562791, -46.654668
-     * Lat/lon Motorista (a caminho):
-     *   inicial: -23.563196, -46.650607
-     *   intermediaria: -23.564801, -46.652196
-     *   final: -23.562801, -46.654660 (Essa latitude foi corrigida com relação ao vídeo)
-     * */
 
     private EditText editNome;
     private EditText editProduto;

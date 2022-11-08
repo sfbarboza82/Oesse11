@@ -102,7 +102,7 @@ public class CadastroOsActivity extends AppCompatActivity {
 
         if(buttonCriarOs.getText() == "CANCELAR OS"){
 
-            requisicao.setStatus(Requisicao.STATUS_ENCERRADA);
+            requisicao.setStatus(Requisicao.STATUS_CANCELADA);
             requisicao.atualizarStatus();
 
         }else{

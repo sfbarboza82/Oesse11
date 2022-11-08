@@ -158,25 +158,25 @@ public class AtendimentoActivity extends AppCompatActivity
                     if( tipoUsuario.equals("A") ){
 
                         Context contexto = getApplicationContext();
-                        String texto = "REQUISIÇÃO CANCELADA PELO TÉCNICO!";
-                        int duracao = Toast.LENGTH_SHORT;
+                        String texto = "REQUISIÇÃO CANCELADA!";
+                        int duracao = Toast.LENGTH_LONG;
 
                         Toast toast = Toast.makeText(contexto, texto,duracao);
                         toast.show();
 
-                        startActivity(new Intent(AtendimentoActivity.this, RequisicoesActivity.class));
+//                        startActivity(new Intent(AtendimentoActivity.this, RequisicoesActivity.class));
 
                     }
                     else {
 
                         Context contexto = getApplicationContext();
-                        String texto = "REQUISIÇÃO CANCELADA PELO ATENDENTE!";
-                        int duracao = Toast.LENGTH_SHORT;
+                        String texto = "REQUISIÇÃO CANCELADA!";
+                        int duracao = Toast.LENGTH_LONG;
 
                         Toast toast = Toast.makeText(contexto, texto,duracao);
                         toast.show();
 
-                        startActivity(new Intent(AtendimentoActivity.this, RequisicoesActivity.class));
+//                        startActivity(new Intent(AtendimentoActivity.this, RequisicoesActivity.class));
 
                     }
                 }

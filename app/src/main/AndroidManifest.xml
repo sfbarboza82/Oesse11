@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.net.oesse11.activity">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAYgcXxi8-L5XX8ZQqbHLCRQCrtzLhZX-c" />
+
+        <activity
+            android:name="br.net.oesse11.activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.net.oesse11.activity.LoginActivity"
+            android:label="@string/titulo_login"
+            android:parentActivityName="br.net.oesse11.activity.MainActivity" />
+        <activity
+            android:name="br.net.oesse11.activity.CadastroActivity"
+            android:label="@string/titulo_cadastro"
+            android:parentActivityName="br.net.oesse11.activity.MainActivity" />
+        <activity
+            android:name="br.net.oesse11.activity.MenuAtendenteActivity"
+            android:label="@string/titulo_cadastro"
+            android:parentActivityName="br.net.oesse11.activity.MainActivity" />
+        <activity
+            android:name="br.net.oesse11.activity.MenuTecnicoActivity"
+            android:label="@string/titulo_cadastro"
+            android:parentActivityName="br.net.oesse11.activity.MainActivity" />
+        <activity android:name="br.net.oesse11.activity.RequisicoesActivity" />
+        <activity
+            android:name="br.net.oesse11.activity.CadastroOsActivity"
+            android:label="@string/title_activity_atendente"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="br.net.oesse11.activity.AtendimentoActivity"
+            android:label="@string/title_activity_os"
+            android:parentActivityName="br.net.oesse11.activity.RequisicoesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.net.oesse11.activity.RequisicoesActivity" />
+        </activity>
+    </application>
+
+</manifest>

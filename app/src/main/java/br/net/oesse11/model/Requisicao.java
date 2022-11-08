@@ -14,7 +14,6 @@ public class Requisicao {
     private String produto;
     private String defeito;
     private String status;
-    private Usuario atendente;
     private Usuario tecnico;
     private Destino destino;
 

@@ -25,7 +25,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-//import br.net.oesse11.R;
 import br.net.oesse11.adpter.RequisicoesAdapter;
 import br.net.oesse11.config.ConfiguracaoFirebase;
 import br.net.oesse11.helper.RecyclerItemClickListener;

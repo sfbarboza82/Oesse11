@@ -262,7 +262,7 @@ public class AtendimentoActivity extends AppCompatActivity
                     if( tipoUsuario.equals("A") ){
 
                         getSupportActionBar().setTitle("AGUARDANDO UM TÉCNICO");
-                        buttonAceitarOs.setText("CANCELAR OS");
+                        buttonAceitarOs.setVisibility(View.INVISIBLE);
 
                         LatLng localDestino = new LatLng(
                                 Double.parseDouble(destino.getLatitude()),
@@ -311,7 +311,7 @@ public class AtendimentoActivity extends AppCompatActivity
                     if( tipoUsuario.equals("A") ){
 
                         getSupportActionBar().setTitle("O TÉCNICO ESTA A CAMINHO");
-                        buttonAceitarOs.setText("CANCELAR OS");
+                        buttonAceitarOs.setVisibility(View.INVISIBLE);
 
                         //Exibe marcador do tecnico
                         adicionaMarcadorTecnico(localTecnico, tecnico.getNome() );
@@ -333,7 +333,7 @@ public class AtendimentoActivity extends AppCompatActivity
                     else {
 
                         getSupportActionBar().setTitle("O TÉCNICO ESTA A CAMINHO");
-                        buttonAceitarOs.setText("CANCELAR OS");
+                        buttonAceitarOs.setVisibility(View.INVISIBLE);
                         fabRota.setVisibility(View.VISIBLE);
 
                         //Exibe marcador do tecnico

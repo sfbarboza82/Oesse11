@@ -9,7 +9,6 @@ import java.util.Map;
 public class Requisicao {
 
     private String id;
-
     private String nome;
     private String produto;
     private String defeito;
@@ -46,25 +45,8 @@ public class Requisicao {
 
         Map objeto = new HashMap();
 
-        objeto.put("nome", getNome() );
-        objeto.put("produto", getProduto() );
-        objeto.put("defeito", getDefeito() );
         objeto.put("tecnico", getTecnico() );
         objeto.put("status", getStatus());
-
-        requisicao.updateChildren( objeto );
-
-    }
-
-    public void atualizarNome(){
-
-        DatabaseReference firebaseRef = ConfiguracaoFirebase.getFirebaseDatabase();
-        DatabaseReference requisicoes = firebaseRef.child("requisicoes");
-
-        DatabaseReference requisicao = requisicoes.child(getId());
-
-        Map objeto = new HashMap();
-        objeto.put("nome", getNome());
 
         requisicao.updateChildren( objeto );
 

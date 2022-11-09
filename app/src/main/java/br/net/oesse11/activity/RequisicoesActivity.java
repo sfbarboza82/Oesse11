@@ -74,16 +74,18 @@ public class RequisicoesActivity extends AppCompatActivity {
 
     private void verificaStatusRequisicao(){
 
-        Usuario usuarioLogado = UsuarioFirebase.getDadosUsuarioLogado();
+        //Usuario usuarioLogado = UsuarioFirebase.getDadosUsuarioLogado();
         DatabaseReference firebaseRef = ConfiguracaoFirebase.getFirebaseDatabase();
 
         DatabaseReference requisicoes = firebaseRef.child("requisicoes");
 
-        Query requisicoesPesquisa = requisicoes.orderByChild("tecnico/id");
+        //Query requisicoesPesquisa = requisicoes.orderByChild("tecnico/id");
+
+        recuperarRequisicoes();
         /*
         Query requisicoesPesquisa = requisicoes.orderByChild("tecnico/id")
                 .equalTo( usuarioLogado.getId() );
-        */
+
 
         requisicoesPesquisa.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -107,6 +109,7 @@ public class RequisicoesActivity extends AppCompatActivity {
                                     recuperarRequisicoes();
                                 }
                                 else {
+
                                     Requisicao requisicao = ds.getValue( Requisicao.class );
                                     if( requisicao.getStatus().equals(Requisicao.STATUS_A_CAMINHO)
                                             || requisicao.getStatus().equals(Requisicao.STATUS_FINALIZADA)){
@@ -133,7 +136,7 @@ public class RequisicoesActivity extends AppCompatActivity {
 
             }
         });
-
+*/
     }
 
     private void recuperarLocalizacaoUsuario() {

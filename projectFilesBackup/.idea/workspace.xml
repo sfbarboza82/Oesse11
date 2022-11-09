@@ -131,7 +131,6 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/br/uber/cursoandroid/jamiltondamasceno/oesse11/ExampleUnitTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
@@ -168,38 +167,24 @@
                 <option name="myItemId" value="" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
               </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Uber" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
+
+
             </PATH>
             <PATH>
               <PATH_ELEMENT>
                 <option name="myItemId" value="" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
               </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Uber" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Uber" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
-              </PATH_ELEMENT>
+
+
             </PATH>
             <PATH>
               <PATH_ELEMENT>
                 <option name="myItemId" value="" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
               </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Uber" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Uber" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
-              </PATH_ELEMENT>
+
+
               <PATH_ELEMENT>
                 <option name="myItemId" value="Tasks" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
@@ -210,14 +195,7 @@
                 <option name="myItemId" value="" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
               </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Uber" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Uber" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
-              </PATH_ELEMENT>
+
               <PATH_ELEMENT>
                 <option name="myItemId" value="Tasks" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
@@ -301,10 +279,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>void adicionaMarcadorPassageiro</find>
+
       <find>adicionaMa</find>
       <find>centralia</find>
-      <find>void adicionaMarcadorMOtorista</find>
+
       <find>verificaStatusRe</find>
       <find>verif</find>
       <find>centralizarDoisMarcadores</find>
@@ -314,27 +292,22 @@
       <find>verificar</find>
       <find>altera</find>
       <find>recu</find>
-      <find>requisicaoVi</find>
       <find>requisicaoFIn</find>
       <find>recupera</find>
-      <find>void chamarU</find>
-      <find>void aceitarCorrida</find>
+
       <find>recuperarLo</find>
       <find>requisicaoFina</find>
       <find>requisicaoFinalizada</find>
       <find>veri</find>
       <find>verifica</find>
       <find>alteraInterfaceStatusRequisicao</find>
-      <find>uberChamado</find>
-      <find>cancelarUber</find>
+
       <find>marcador</find>
       <find>recuperar</find>
       <find>idRe</find>
       <find>map</find>
     </findStrings>
-    <replaceStrings>
-      <replace>cancelarUber</replace>
-    </replaceStrings>
+
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -347,25 +320,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/uber/cursoandroid/jamiltondamasceno/uber/activity/RequisicoesActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/uber/cursoandroid/jamiltondamasceno/uber/helper/Local.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/uber/cursoandroid/jamiltondamasceno/uber/adpter/RequisicoesAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/uber/cursoandroid/jamiltondamasceno/uber/model/Requisicao.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/uber/cursoandroid/jamiltondamasceno/uber/activity/CorridaActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/uber/cursoandroid/jamiltondamasceno/uber/activity/PassageiroActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/net/oesse11/config/ConfiguracaoFirebase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/net/oesse11/helper/Local.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/net/oesse11/helper/Permissoes.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_corrida.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_corrida.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/br/net/oesse11/activity/CorridaActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_passageiro.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_passageiro.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/net/oesse11/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/net/oesse11/activity/ClienteActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/br/net/oesse11/activity/PassageiroActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/google_maps_api.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
@@ -531,13 +492,10 @@
       <recent name="D:\sfbar\Desktop\TCC\Oesse11\app\src\main\java\br\net\oesse11\activity" />
       <recent name="D:\sfbar\Desktop\TCC\Oesse11\app\src\main\res\values" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/uber/cursoandroid/jamiltondamasceno/uber/helper" />
     </key>
     <key name="android.template.packageName">
-      <recent name="com.uber.cursoandroid.jamiltondamasceno.uber.activity" />
     </key>
     <key name="android.template.parentActivityClass">
-      <recent name="com.uber.cursoandroid.jamiltondamasceno.uber.activity.RequisicoesActivity" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -675,25 +633,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uber [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="signingReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -705,13 +645,10 @@
     </configuration>
     <list>
       <item itemvalue="Android App.app" />
-      <item itemvalue="Gradle.Uber [signingReport]" />
+
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.Uber [signingReport]" />
-        <item itemvalue="Gradle.Uber [signingReport]" />
-      </list>
+
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
